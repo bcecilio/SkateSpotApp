@@ -1,0 +1,590 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B7F749C82659D26400EE8914 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7F749C72659D26400EE8914 /* AppDelegate.swift */; };
+		B7F749CA2659D26400EE8914 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7F749C92659D26400EE8914 /* SceneDelegate.swift */; };
+		B7F749CC2659D26400EE8914 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7F749CB2659D26400EE8914 /* ViewController.swift */; };
+		B7F749D12659D26500EE8914 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B7F749D02659D26500EE8914 /* Assets.xcassets */; };
+		B7F749D42659D26500EE8914 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B7F749D22659D26500EE8914 /* LaunchScreen.storyboard */; };
+		B7F749DF2659D26600EE8914 /* SkateSpotAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7F749DE2659D26600EE8914 /* SkateSpotAppTests.swift */; };
+		B7F749EA2659D26600EE8914 /* SkateSpotAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7F749E92659D26600EE8914 /* SkateSpotAppUITests.swift */; };
+		B7F749FE2659D5DF00EE8914 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7F749FD2659D5DF00EE8914 /* MainView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B7F749DB2659D26600EE8914 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B7F749BC2659D26400EE8914 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B7F749C32659D26400EE8914;
+			remoteInfo = SkateSpotApp;
+		};
+		B7F749E62659D26600EE8914 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B7F749BC2659D26400EE8914 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B7F749C32659D26400EE8914;
+			remoteInfo = SkateSpotApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B7F749C42659D26400EE8914 /* SkateSpotApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SkateSpotApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B7F749C72659D26400EE8914 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B7F749C92659D26400EE8914 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		B7F749CB2659D26400EE8914 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B7F749D02659D26500EE8914 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B7F749D32659D26500EE8914 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B7F749D52659D26500EE8914 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B7F749DA2659D26600EE8914 /* SkateSpotAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SkateSpotAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B7F749DE2659D26600EE8914 /* SkateSpotAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkateSpotAppTests.swift; sourceTree = "<group>"; };
+		B7F749E02659D26600EE8914 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B7F749E52659D26600EE8914 /* SkateSpotAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SkateSpotAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B7F749E92659D26600EE8914 /* SkateSpotAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkateSpotAppUITests.swift; sourceTree = "<group>"; };
+		B7F749EB2659D26600EE8914 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B7F749FD2659D5DF00EE8914 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B7F749C12659D26400EE8914 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B7F749D72659D26600EE8914 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B7F749E22659D26600EE8914 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B7F749BB2659D26400EE8914 = {
+			isa = PBXGroup;
+			children = (
+				B7F749C62659D26400EE8914 /* SkateSpotApp */,
+				B7F749DD2659D26600EE8914 /* SkateSpotAppTests */,
+				B7F749E82659D26600EE8914 /* SkateSpotAppUITests */,
+				B7F749C52659D26400EE8914 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B7F749C52659D26400EE8914 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B7F749C42659D26400EE8914 /* SkateSpotApp.app */,
+				B7F749DA2659D26600EE8914 /* SkateSpotAppTests.xctest */,
+				B7F749E52659D26600EE8914 /* SkateSpotAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B7F749C62659D26400EE8914 /* SkateSpotApp */ = {
+			isa = PBXGroup;
+			children = (
+				B7F749C72659D26400EE8914 /* AppDelegate.swift */,
+				B7F749C92659D26400EE8914 /* SceneDelegate.swift */,
+				B7F749CB2659D26400EE8914 /* ViewController.swift */,
+				B7F749FD2659D5DF00EE8914 /* MainView.swift */,
+				B7F749D02659D26500EE8914 /* Assets.xcassets */,
+				B7F749D22659D26500EE8914 /* LaunchScreen.storyboard */,
+				B7F749D52659D26500EE8914 /* Info.plist */,
+			);
+			path = SkateSpotApp;
+			sourceTree = "<group>";
+		};
+		B7F749DD2659D26600EE8914 /* SkateSpotAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				B7F749DE2659D26600EE8914 /* SkateSpotAppTests.swift */,
+				B7F749E02659D26600EE8914 /* Info.plist */,
+			);
+			path = SkateSpotAppTests;
+			sourceTree = "<group>";
+		};
+		B7F749E82659D26600EE8914 /* SkateSpotAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B7F749E92659D26600EE8914 /* SkateSpotAppUITests.swift */,
+				B7F749EB2659D26600EE8914 /* Info.plist */,
+			);
+			path = SkateSpotAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B7F749C32659D26400EE8914 /* SkateSpotApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B7F749EE2659D26600EE8914 /* Build configuration list for PBXNativeTarget "SkateSpotApp" */;
+			buildPhases = (
+				B7F749C02659D26400EE8914 /* Sources */,
+				B7F749C12659D26400EE8914 /* Frameworks */,
+				B7F749C22659D26400EE8914 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SkateSpotApp;
+			productName = SkateSpotApp;
+			productReference = B7F749C42659D26400EE8914 /* SkateSpotApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B7F749D92659D26600EE8914 /* SkateSpotAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B7F749F12659D26600EE8914 /* Build configuration list for PBXNativeTarget "SkateSpotAppTests" */;
+			buildPhases = (
+				B7F749D62659D26600EE8914 /* Sources */,
+				B7F749D72659D26600EE8914 /* Frameworks */,
+				B7F749D82659D26600EE8914 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B7F749DC2659D26600EE8914 /* PBXTargetDependency */,
+			);
+			name = SkateSpotAppTests;
+			productName = SkateSpotAppTests;
+			productReference = B7F749DA2659D26600EE8914 /* SkateSpotAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B7F749E42659D26600EE8914 /* SkateSpotAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B7F749F42659D26600EE8914 /* Build configuration list for PBXNativeTarget "SkateSpotAppUITests" */;
+			buildPhases = (
+				B7F749E12659D26600EE8914 /* Sources */,
+				B7F749E22659D26600EE8914 /* Frameworks */,
+				B7F749E32659D26600EE8914 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B7F749E72659D26600EE8914 /* PBXTargetDependency */,
+			);
+			name = SkateSpotAppUITests;
+			productName = SkateSpotAppUITests;
+			productReference = B7F749E52659D26600EE8914 /* SkateSpotAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B7F749BC2659D26400EE8914 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1230;
+				LastUpgradeCheck = 1230;
+				TargetAttributes = {
+					B7F749C32659D26400EE8914 = {
+						CreatedOnToolsVersion = 12.3;
+					};
+					B7F749D92659D26600EE8914 = {
+						CreatedOnToolsVersion = 12.3;
+						TestTargetID = B7F749C32659D26400EE8914;
+					};
+					B7F749E42659D26600EE8914 = {
+						CreatedOnToolsVersion = 12.3;
+						TestTargetID = B7F749C32659D26400EE8914;
+					};
+				};
+			};
+			buildConfigurationList = B7F749BF2659D26400EE8914 /* Build configuration list for PBXProject "SkateSpotApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B7F749BB2659D26400EE8914;
+			productRefGroup = B7F749C52659D26400EE8914 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B7F749C32659D26400EE8914 /* SkateSpotApp */,
+				B7F749D92659D26600EE8914 /* SkateSpotAppTests */,
+				B7F749E42659D26600EE8914 /* SkateSpotAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B7F749C22659D26400EE8914 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B7F749D42659D26500EE8914 /* LaunchScreen.storyboard in Resources */,
+				B7F749D12659D26500EE8914 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B7F749D82659D26600EE8914 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B7F749E32659D26600EE8914 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B7F749C02659D26400EE8914 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B7F749CC2659D26400EE8914 /* ViewController.swift in Sources */,
+				B7F749FE2659D5DF00EE8914 /* MainView.swift in Sources */,
+				B7F749C82659D26400EE8914 /* AppDelegate.swift in Sources */,
+				B7F749CA2659D26400EE8914 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B7F749D62659D26600EE8914 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B7F749DF2659D26600EE8914 /* SkateSpotAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B7F749E12659D26600EE8914 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B7F749EA2659D26600EE8914 /* SkateSpotAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B7F749DC2659D26600EE8914 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B7F749C32659D26400EE8914 /* SkateSpotApp */;
+			targetProxy = B7F749DB2659D26600EE8914 /* PBXContainerItemProxy */;
+		};
+		B7F749E72659D26600EE8914 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B7F749C32659D26400EE8914 /* SkateSpotApp */;
+			targetProxy = B7F749E62659D26600EE8914 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B7F749D22659D26500EE8914 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B7F749D32659D26500EE8914 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B7F749EC2659D26600EE8914 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B7F749ED2659D26600EE8914 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B7F749EF2659D26600EE8914 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 879MP5M96B;
+				INFOPLIST_FILE = SkateSpotApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.brendoncecilio.SkateSpotApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B7F749F02659D26600EE8914 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 879MP5M96B;
+				INFOPLIST_FILE = SkateSpotApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.brendoncecilio.SkateSpotApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B7F749F22659D26600EE8914 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 879MP5M96B;
+				INFOPLIST_FILE = SkateSpotAppTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.brendoncecilio.SkateSpotAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SkateSpotApp.app/SkateSpotApp";
+			};
+			name = Debug;
+		};
+		B7F749F32659D26600EE8914 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 879MP5M96B;
+				INFOPLIST_FILE = SkateSpotAppTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.brendoncecilio.SkateSpotAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SkateSpotApp.app/SkateSpotApp";
+			};
+			name = Release;
+		};
+		B7F749F52659D26600EE8914 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 879MP5M96B;
+				INFOPLIST_FILE = SkateSpotAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.brendoncecilio.SkateSpotAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SkateSpotApp;
+			};
+			name = Debug;
+		};
+		B7F749F62659D26600EE8914 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 879MP5M96B;
+				INFOPLIST_FILE = SkateSpotAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.brendoncecilio.SkateSpotAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SkateSpotApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B7F749BF2659D26400EE8914 /* Build configuration list for PBXProject "SkateSpotApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B7F749EC2659D26600EE8914 /* Debug */,
+				B7F749ED2659D26600EE8914 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B7F749EE2659D26600EE8914 /* Build configuration list for PBXNativeTarget "SkateSpotApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B7F749EF2659D26600EE8914 /* Debug */,
+				B7F749F02659D26600EE8914 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B7F749F12659D26600EE8914 /* Build configuration list for PBXNativeTarget "SkateSpotAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B7F749F22659D26600EE8914 /* Debug */,
+				B7F749F32659D26600EE8914 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B7F749F42659D26600EE8914 /* Build configuration list for PBXNativeTarget "SkateSpotAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B7F749F52659D26600EE8914 /* Debug */,
+				B7F749F62659D26600EE8914 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B7F749BC2659D26400EE8914 /* Project object */;
+}
