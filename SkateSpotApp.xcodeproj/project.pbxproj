@@ -3,10 +3,16 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0F86B35FF206896CF9276775 /* Pods_SkateSpotApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 21D67361686EC9C974662ABB /* Pods_SkateSpotApp.framework */; };
+		2310C4DDEA8DEF3295DD07F8 /* Pods_SkateSpotAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B62A6141BD29DB4DF09BF7D6 /* Pods_SkateSpotAppTests.framework */; };
+		675F20B30CFBC4B5D3F1F478 /* Pods_SkateSpotApp_SkateSpotAppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D21FBA8D1AA98059F5947873 /* Pods_SkateSpotApp_SkateSpotAppUITests.framework */; };
+		B754F365267A77F2001F0970 /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B754F364267A77F2001F0970 /* LoginController.swift */; };
+		B754F36A267A7804001F0970 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B754F369267A7804001F0970 /* LoginView.swift */; };
+		B754F36F267A796F001F0970 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B754F36E267A796F001F0970 /* GoogleService-Info.plist */; };
 		B7F749C82659D26400EE8914 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7F749C72659D26400EE8914 /* AppDelegate.swift */; };
 		B7F749CA2659D26400EE8914 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7F749C92659D26400EE8914 /* SceneDelegate.swift */; };
 		B7F749CC2659D26400EE8914 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7F749CB2659D26400EE8914 /* ViewController.swift */; };
@@ -35,6 +41,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		077DF7DA16F8362315CD5BF7 /* Pods-SkateSpotApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SkateSpotApp.debug.xcconfig"; path = "Target Support Files/Pods-SkateSpotApp/Pods-SkateSpotApp.debug.xcconfig"; sourceTree = "<group>"; };
+		15DD644A13D9093F169FF66B /* Pods-SkateSpotApp-SkateSpotAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SkateSpotApp-SkateSpotAppUITests.release.xcconfig"; path = "Target Support Files/Pods-SkateSpotApp-SkateSpotAppUITests/Pods-SkateSpotApp-SkateSpotAppUITests.release.xcconfig"; sourceTree = "<group>"; };
+		21D67361686EC9C974662ABB /* Pods_SkateSpotApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SkateSpotApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		390375C034C7A235F90E6B79 /* Pods-SkateSpotApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SkateSpotApp.release.xcconfig"; path = "Target Support Files/Pods-SkateSpotApp/Pods-SkateSpotApp.release.xcconfig"; sourceTree = "<group>"; };
+		6A505F488021553A5432A813 /* Pods-SkateSpotApp-SkateSpotAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SkateSpotApp-SkateSpotAppUITests.debug.xcconfig"; path = "Target Support Files/Pods-SkateSpotApp-SkateSpotAppUITests/Pods-SkateSpotApp-SkateSpotAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		B62A6141BD29DB4DF09BF7D6 /* Pods_SkateSpotAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SkateSpotAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B754F364267A77F2001F0970 /* LoginController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
+		B754F369267A7804001F0970 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		B754F36E267A796F001F0970 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		B7F749C42659D26400EE8914 /* SkateSpotApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SkateSpotApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B7F749C72659D26400EE8914 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B7F749C92659D26400EE8914 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +64,9 @@
 		B7F749E92659D26600EE8914 /* SkateSpotAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkateSpotAppUITests.swift; sourceTree = "<group>"; };
 		B7F749EB2659D26600EE8914 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B7F749FD2659D5DF00EE8914 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		D21FBA8D1AA98059F5947873 /* Pods_SkateSpotApp_SkateSpotAppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SkateSpotApp_SkateSpotAppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F58CC5FBE4E5E1EA2FAA4469 /* Pods-SkateSpotAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SkateSpotAppTests.release.xcconfig"; path = "Target Support Files/Pods-SkateSpotAppTests/Pods-SkateSpotAppTests.release.xcconfig"; sourceTree = "<group>"; };
+		F6338C8E6A266809C186B5C4 /* Pods-SkateSpotAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SkateSpotAppTests.debug.xcconfig"; path = "Target Support Files/Pods-SkateSpotAppTests/Pods-SkateSpotAppTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0F86B35FF206896CF9276775 /* Pods_SkateSpotApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2310C4DDEA8DEF3295DD07F8 /* Pods_SkateSpotAppTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +90,44 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				675F20B30CFBC4B5D3F1F478 /* Pods_SkateSpotApp_SkateSpotAppUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AEBFFB852CA4E7CE38821EF7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				077DF7DA16F8362315CD5BF7 /* Pods-SkateSpotApp.debug.xcconfig */,
+				390375C034C7A235F90E6B79 /* Pods-SkateSpotApp.release.xcconfig */,
+				6A505F488021553A5432A813 /* Pods-SkateSpotApp-SkateSpotAppUITests.debug.xcconfig */,
+				15DD644A13D9093F169FF66B /* Pods-SkateSpotApp-SkateSpotAppUITests.release.xcconfig */,
+				F6338C8E6A266809C186B5C4 /* Pods-SkateSpotAppTests.debug.xcconfig */,
+				F58CC5FBE4E5E1EA2FAA4469 /* Pods-SkateSpotAppTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		B754F35C267A77D1001F0970 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				B7F749CB2659D26400EE8914 /* ViewController.swift */,
+				B754F364267A77F2001F0970 /* LoginController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		B754F360267A77D8001F0970 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B7F749FD2659D5DF00EE8914 /* MainView.swift */,
+				B754F369267A7804001F0970 /* LoginView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		B7F749BB2659D26400EE8914 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +135,8 @@
 				B7F749DD2659D26600EE8914 /* SkateSpotAppTests */,
 				B7F749E82659D26600EE8914 /* SkateSpotAppUITests */,
 				B7F749C52659D26400EE8914 /* Products */,
+				AEBFFB852CA4E7CE38821EF7 /* Pods */,
+				CFABF113759A3F2E9390097F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,10 +155,11 @@
 			children = (
 				B7F749C72659D26400EE8914 /* AppDelegate.swift */,
 				B7F749C92659D26400EE8914 /* SceneDelegate.swift */,
-				B7F749CB2659D26400EE8914 /* ViewController.swift */,
-				B7F749FD2659D5DF00EE8914 /* MainView.swift */,
+				B754F35C267A77D1001F0970 /* Controllers */,
+				B754F360267A77D8001F0970 /* Views */,
 				B7F749D02659D26500EE8914 /* Assets.xcassets */,
 				B7F749D22659D26500EE8914 /* LaunchScreen.storyboard */,
+				B754F36E267A796F001F0970 /* GoogleService-Info.plist */,
 				B7F749D52659D26500EE8914 /* Info.plist */,
 			);
 			path = SkateSpotApp;
@@ -128,6 +183,16 @@
 			path = SkateSpotAppUITests;
 			sourceTree = "<group>";
 		};
+		CFABF113759A3F2E9390097F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				21D67361686EC9C974662ABB /* Pods_SkateSpotApp.framework */,
+				D21FBA8D1AA98059F5947873 /* Pods_SkateSpotApp_SkateSpotAppUITests.framework */,
+				B62A6141BD29DB4DF09BF7D6 /* Pods_SkateSpotAppTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +200,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B7F749EE2659D26600EE8914 /* Build configuration list for PBXNativeTarget "SkateSpotApp" */;
 			buildPhases = (
+				BD24099B16F1C0C8A78DABDE /* [CP] Check Pods Manifest.lock */,
 				B7F749C02659D26400EE8914 /* Sources */,
 				B7F749C12659D26400EE8914 /* Frameworks */,
 				B7F749C22659D26400EE8914 /* Resources */,
+				0C4167667068217917A61F9A /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -152,6 +219,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B7F749F12659D26600EE8914 /* Build configuration list for PBXNativeTarget "SkateSpotAppTests" */;
 			buildPhases = (
+				B972DE97A816C57236281A8E /* [CP] Check Pods Manifest.lock */,
 				B7F749D62659D26600EE8914 /* Sources */,
 				B7F749D72659D26600EE8914 /* Frameworks */,
 				B7F749D82659D26600EE8914 /* Resources */,
@@ -170,9 +238,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B7F749F42659D26600EE8914 /* Build configuration list for PBXNativeTarget "SkateSpotAppUITests" */;
 			buildPhases = (
+				82285540363E12AAACDCC710 /* [CP] Check Pods Manifest.lock */,
 				B7F749E12659D26600EE8914 /* Sources */,
 				B7F749E22659D26600EE8914 /* Frameworks */,
 				B7F749E32659D26600EE8914 /* Resources */,
+				CBD744908249FAE9D1B26790 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -233,6 +303,7 @@
 			files = (
 				B7F749D42659D26500EE8914 /* LaunchScreen.storyboard in Resources */,
 				B7F749D12659D26500EE8914 /* Assets.xcassets in Resources */,
+				B754F36F267A796F001F0970 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -252,15 +323,120 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0C4167667068217917A61F9A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SkateSpotApp/Pods-SkateSpotApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SkateSpotApp/Pods-SkateSpotApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SkateSpotApp/Pods-SkateSpotApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		82285540363E12AAACDCC710 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SkateSpotApp-SkateSpotAppUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B972DE97A816C57236281A8E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SkateSpotAppTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BD24099B16F1C0C8A78DABDE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SkateSpotApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CBD744908249FAE9D1B26790 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SkateSpotApp-SkateSpotAppUITests/Pods-SkateSpotApp-SkateSpotAppUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SkateSpotApp-SkateSpotAppUITests/Pods-SkateSpotApp-SkateSpotAppUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SkateSpotApp-SkateSpotAppUITests/Pods-SkateSpotApp-SkateSpotAppUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		B7F749C02659D26400EE8914 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B754F36A267A7804001F0970 /* LoginView.swift in Sources */,
 				B7F749CC2659D26400EE8914 /* ViewController.swift in Sources */,
 				B7F749FE2659D5DF00EE8914 /* MainView.swift in Sources */,
 				B7F749C82659D26400EE8914 /* AppDelegate.swift in Sources */,
 				B7F749CA2659D26400EE8914 /* SceneDelegate.swift in Sources */,
+				B754F365267A77F2001F0970 /* LoginController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -425,6 +601,7 @@
 		};
 		B7F749EF2659D26600EE8914 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 077DF7DA16F8362315CD5BF7 /* Pods-SkateSpotApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -438,12 +615,13 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.brendoncecilio.SkateSpotApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		B7F749F02659D26600EE8914 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 390375C034C7A235F90E6B79 /* Pods-SkateSpotApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -457,12 +635,13 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.brendoncecilio.SkateSpotApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
 		B7F749F22659D26600EE8914 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F6338C8E6A266809C186B5C4 /* Pods-SkateSpotAppTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -485,6 +664,7 @@
 		};
 		B7F749F32659D26600EE8914 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F58CC5FBE4E5E1EA2FAA4469 /* Pods-SkateSpotAppTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -507,6 +687,7 @@
 		};
 		B7F749F52659D26600EE8914 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6A505F488021553A5432A813 /* Pods-SkateSpotApp-SkateSpotAppUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -527,6 +708,7 @@
 		};
 		B7F749F62659D26600EE8914 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 15DD644A13D9093F169FF66B /* Pods-SkateSpotApp-SkateSpotAppUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

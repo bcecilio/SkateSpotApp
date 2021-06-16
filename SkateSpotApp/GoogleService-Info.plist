@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>864117773658-eapp9r8g03c340pm4m5r01lutqhev31u.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.864117773658-eapp9r8g03c340pm4m5r01lutqhev31u</string>
+	<key>API_KEY</key>
+	<string>AIzaSyCfiVh3gkWAZVEHyHbiYfAxh7bsW7hneN0</string>
+	<key>GCM_SENDER_ID</key>
+	<string>864117773658</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.brendoncecilio.SkateSpotApp</string>
+	<key>PROJECT_ID</key>
+	<string>skatespotapp-b7c11</string>
+	<key>STORAGE_BUCKET</key>
+	<string>skatespotapp-b7c11.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:864117773658:ios:6258d623a218ea5ad98f63</string>
+</dict>
+</plist>
