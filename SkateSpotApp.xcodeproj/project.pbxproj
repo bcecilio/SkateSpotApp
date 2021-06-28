@@ -15,6 +15,7 @@
 		B754F36A267A7804001F0970 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B754F369267A7804001F0970 /* LoginView.swift */; };
 		B754F36F267A796F001F0970 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B754F36E267A796F001F0970 /* GoogleService-Info.plist */; };
 		B78362D5268A2218005280FF /* DatabaseServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = B78362D4268A2218005280FF /* DatabaseServices.swift */; };
+		B78362DA268A246F005280FF /* AuthenticationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B78362D9268A246F005280FF /* AuthenticationService.swift */; };
 		B7F749C82659D26400EE8914 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7F749C72659D26400EE8914 /* AppDelegate.swift */; };
 		B7F749CA2659D26400EE8914 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7F749C92659D26400EE8914 /* SceneDelegate.swift */; };
 		B7F749CC2659D26400EE8914 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7F749CB2659D26400EE8914 /* ViewController.swift */; };
@@ -54,6 +55,7 @@
 		B754F369267A7804001F0970 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		B754F36E267A796F001F0970 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		B78362D4268A2218005280FF /* DatabaseServices.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DatabaseServices.swift; sourceTree = "<group>"; };
+		B78362D9268A246F005280FF /* AuthenticationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationService.swift; sourceTree = "<group>"; };
 		B7F749C42659D26400EE8914 /* SkateSpotApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SkateSpotApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B7F749C72659D26400EE8914 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B7F749C92659D26400EE8914 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -151,6 +153,15 @@
 			path = Extensions;
 			sourceTree = "<group>";
 		};
+		B78362DE268A24A8005280FF /* FirebaseServices */ = {
+			isa = PBXGroup;
+			children = (
+				B78362D4268A2218005280FF /* DatabaseServices.swift */,
+				B78362D9268A246F005280FF /* AuthenticationService.swift */,
+			);
+			path = FirebaseServices;
+			sourceTree = "<group>";
+		};
 		B7F749BB2659D26400EE8914 = {
 			isa = PBXGroup;
 			children = (
@@ -176,9 +187,9 @@
 		B7F749C62659D26400EE8914 /* SkateSpotApp */ = {
 			isa = PBXGroup;
 			children = (
-				B78362D4268A2218005280FF /* DatabaseServices.swift */,
-				B754F360267A77D8001F0970 /* Views */,
 				B754F35C267A77D1001F0970 /* Controllers */,
+				B754F360267A77D8001F0970 /* Views */,
+				B78362DE268A24A8005280FF /* FirebaseServices */,
 				B78362BD268A1D26005280FF /* Extensions */,
 				B78362B6268A1D10005280FF /* Supporting_Files */,
 				B754F36E267A796F001F0970 /* GoogleService-Info.plist */,
@@ -456,6 +467,7 @@
 				B754F36A267A7804001F0970 /* LoginView.swift in Sources */,
 				B7F749CC2659D26400EE8914 /* ViewController.swift in Sources */,
 				B78362D5268A2218005280FF /* DatabaseServices.swift in Sources */,
+				B78362DA268A246F005280FF /* AuthenticationService.swift in Sources */,
 				B7F749FE2659D5DF00EE8914 /* MainView.swift in Sources */,
 				B7F749C82659D26400EE8914 /* AppDelegate.swift in Sources */,
 				B7206F16267BCC3800F14E19 /* UIViewController+Extension.swift in Sources */,
