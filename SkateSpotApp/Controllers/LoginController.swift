@@ -6,10 +6,13 @@
 //
 
 import UIKit
+import FirebaseAuth
 
 class LoginController: UIViewController {
     
     private let loginView = LoginView()
+    private var datebaseService = DatabaseService()
+    private var authSession = AuthenticationSession()
 
     override func viewDidLoad() {
         super.viewDidLoad()
